@@ -8,7 +8,7 @@
   margin:40px auto;
 }
 
-.item,.top,.bottom,.under-immage{
+.item,.top,.bottom{
   display: inline-block;
 }
 .item{
@@ -25,7 +25,7 @@ position:relative;
 img{ 
   width: 100%; 
  } 
-
+/* DISCAUNT SOSTENIBILITA HEART POSITION. */
 .label{
   position:absolute;
 }
@@ -37,9 +37,7 @@ img{
   bottom:20px;
   
 }
-  .discount,.sost,.heart{ 
-  z-index:2; 
- }  
+
 .discount{
   background-color:red;
 }
@@ -64,7 +62,6 @@ img{
 .item:hover .disappearance{
 position: absolute;
 display:block;
- z-index:1; 
 }
 
 /* BRAND SPOT PRICE */
