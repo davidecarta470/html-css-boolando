@@ -8,19 +8,22 @@
   margin:40px auto;
 }
 
-.item,.top,.bottom{
+.item,.top{
   display: inline-block;
 }
 .item{
   width: 33%;
+  margin-bottom: 40px;
+
 }
 .top{
 position:relative;
 }
 .bottom{
+  width:100%;
   
-  margin-bottom: 30px;
 }
+
 
 img{ 
   width: 100%; 
@@ -55,6 +58,7 @@ img{
   right:0px;
   top:10px;
 }
+
 /* PHOTO THAT APPEARS WITH HOVER */
 .disappearance{
   display: none;
