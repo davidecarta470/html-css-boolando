@@ -66,6 +66,7 @@ img{
 .item:hover .disappearance{
 position: absolute;
 display:block;
+cursor: pointer;
 }
 
 /* BRAND SPOT PRICE */
