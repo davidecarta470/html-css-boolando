@@ -1,0 +1,87 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+.conteiner{
+  width:900px;
+  height: 600px;
+  background-color:aquamarine;
+  margin:40px auto;
+}
+
+.item,.under-immage{
+  display: inline-block;
+}
+.item{
+  position:relative;
+  width: 30%;
+}
+
+img{ 
+  width: 100%; 
+ } 
+
+.label{
+  position:absolute;
+}
+.discount ,.sust{
+  color:white;
+  font-size:10px;
+  padding:2px 5px;
+  bottom:20px;
+  
+}
+.discount,.sust,.heart{
+  z-index:2;
+}
+.discount{
+  background-color:red;
+}
+.sust{
+  left:40px;
+  background-color:green;
+}
+.heart{
+  width: 40px;
+  height: 40px;
+  font-size: 30px;
+  line-height: 40px;
+  text-align: center;
+  background-color: white;
+  right:0px;
+  top:10px;
+}
+.disappearance{
+  display: none;
+}
+.item:hover .disappearance{
+position: absolute;
+display:block;
+z-index:1;
+}
+
+  /* float:none; */
+
+.brand,.price,.spot{
+  float:none;
+}
+.brand,.spot{
+  font-size:10px
+}
+.new-price{
+  color:red;
+}
+.new-price,.old-price{
+  font-size: 10px;
+  padding: 0 5px 0 0;
+}
+.euro::after{
+  content: " \20AC ";
+}
+.second-container{
+  display: inline-block;
+}
+ 
+ 
+
