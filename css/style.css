@@ -4,18 +4,22 @@
   box-sizing:border-box;
 }
 .conteiner{
-  width:900px;
-  height: 600px;
-  background-color:aquamarine;
+  width:60%;
   margin:40px auto;
 }
 
-.item,.under-immage{
+.item,.top,.bottom,.under-immage{
   display: inline-block;
 }
 .item{
-  position:relative;
-  width: 30%;
+  width: 33%;
+}
+.top{
+position:relative;
+}
+.bottom{
+  
+  margin-bottom: 30px;
 }
 
 img{ 
@@ -25,20 +29,21 @@ img{
 .label{
   position:absolute;
 }
-.discount ,.sust{
+/* dISCAUNT SOSTENIBILITA HEART CHAR. */
+.discount ,.sost{
   color:white;
   font-size:10px;
   padding:2px 5px;
   bottom:20px;
   
 }
-.discount,.sust,.heart{
-  z-index:2;
-}
+  .discount,.sost,.heart{ 
+  z-index:2; 
+ }  
 .discount{
   background-color:red;
 }
-.sust{
+.sost{
   left:40px;
   background-color:green;
 }
@@ -52,36 +57,28 @@ img{
   right:0px;
   top:10px;
 }
+/* PHOTO THAT APPEARS WITH HOVER */
 .disappearance{
   display: none;
 }
 .item:hover .disappearance{
 position: absolute;
 display:block;
-z-index:1;
+ z-index:1; 
 }
 
-  /* float:none; */
+/* BRAND SPOT PRICE */
 
-.brand,.price,.spot{
-  float:none;
-}
 .brand,.spot{
-  font-size:10px
-}
-.new-price{
-  color:red;
+  font-size:10px;
 }
 .new-price,.old-price{
   font-size: 10px;
   padding: 0 5px 0 0;
 }
-.euro::after{
-  content: " \20AC ";
+.new-price{
+  color:red;
 }
-.second-container{
-  display: inline-block;
+.old-price{
+  text-decoration: line-through;
 }
- 
- 
-
